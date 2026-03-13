@@ -1,3 +1,4 @@
+/* font */
 h1 { font-family: IM Fell DW Pica, Hoefler Text, Baskerville Old Face, Garamond, serif; 
 	font-size: 23px; font-style: Normal; font-variant: normal; font-weight:700; line-height: 23px}
 h3 { font-family: IM Fell DW Pica, Hoefler Text, Baskerville Old Face, Garamond, serif; font-size: 17px; font-style: Normal; font-variant: normal;
@@ -5,6 +6,7 @@ h3 { font-family: IM Fell DW Pica, Hoefler Text, Baskerville Old Face, Garamond,
 p { font-family: Palatino, Palatino Linotype, Patino LT STD, Book Antiqua, Georgia, serif; 
    font-size: 15px; font-style: Normal; font-variant: normal; font-weight:700; line-height: 23px}
 
+/* Dropdown menu */
 .dropdown__header * {
   padding: 0;
   margin: 0;
@@ -50,7 +52,7 @@ p { font-family: Palatino, Palatino Linotype, Patino LT STD, Book Antiqua, Georg
 .dropdown__header .dropdown__category:hover .dropdown__menu {
   display: block;
 }
-
+/* map */
 #map {
 		height: 300px;
 }
