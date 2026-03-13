@@ -5,6 +5,52 @@ h3 { font-family: IM Fell DW Pica, Hoefler Text, Baskerville Old Face, Garamond,
 p { font-family: Palatino, Palatino Linotype, Patino LT STD, Book Antiqua, Georgia, serif; 
    font-size: 15px; font-style: Normal; font-variant: normal; font-weight:700; line-height: 23px}
 
+.dropdown__header * {
+  padding: 0;
+  margin: 0;
+}
+.dropdown__header {
+  display: flex;
+  align-items: center;
+  background: #713ded;
+}
+
+.dropdown__header strong {
+  margin-left: 5px;
+  margin-right: auto;
+  font-size: 1.6rem;
+}
+
+.dropdown__header .dropdown__categories,
+.dropdown__header .dropdown__menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown__header li {
+  padding: 10px;
+  position: relative;
+}
+
+.dropdown__header li:hover {
+  background: #713d3d;
+}
+
+.dropdown__header .dropdown__category .dropdown__menu {
+  display: none;
+  position: absolute;
+  background: #b87a7a;
+  width: 200px;
+  top: 50px;
+  right: 0;
+}
+
+.dropdown__header .dropdown__category:hover .dropdown__menu {
+  display: block;
+}
+
 #map {
 		height: 300px;
 }
