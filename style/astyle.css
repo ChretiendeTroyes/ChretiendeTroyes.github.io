@@ -6,6 +6,8 @@ h3 { font-family: IM Fell DW Pica, Hoefler Text, Baskerville Old Face, Garamond,
 p { font-family: Palatino, Palatino Linotype, Patino LT STD, Book Antiqua, Georgia, serif; 
    font-size: 15px; font-style: Normal; font-variant: normal; font-weight:700; line-height: 23px}
 
+background-color: EEE3D3;
+
 /* Dropdown menu */
 .dropdown__header * {
   padding: 0;
@@ -14,7 +16,7 @@ p { font-family: Palatino, Palatino Linotype, Patino LT STD, Book Antiqua, Georg
 .dropdown__header {
   display: flex;
   align-items: center;
-  background: #713ded;
+  background: #713d3d;
 }
 
 .dropdown__header strong {
