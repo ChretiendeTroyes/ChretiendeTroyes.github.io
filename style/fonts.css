@@ -1,0 +1,22 @@
+ @font-face {
+    font-family: 'FELL Double Pica Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('FELL Double Pica Regular'), url('FeDPrm2.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'FELL Double Pica Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('FELL Double Pica Italic'), url('FeDPit2.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'FELL Double Pica Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('FELL Double Pica Bold'), url('FeDPsc2.woff') format('woff');
+    }
